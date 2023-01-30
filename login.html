@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elit Shelf User_login</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+
+    <div class="main-container">
+        <div class="logo">
+            <a href="home.html"><img src="./images/elite_logo.png" alt="Logo"></a>
+        </div>
+        <div class="form-container">
+            <h5>Log in</h5>
+            <form action="/login" method="post" class="login-form">
+                <label for="emeail"> E-mail<input type="text" name="email" id="email" placeholder="eliteshelf@gmail.com" required></label>
+
+                <div class="password-container"><label for="password"> Password<input type="password" id="password" name="password" placeholder="Password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" value="
+                    loginPw" required></label>
+                    <i class="fa-solid fa-eye " id="show-password"></i>
+                </div>
+
+                <article class="remember-password">
+                    <p class="remember" ><label for="remember"><input type="checkbox" id="remember"> Remember me</label></p><p class="forgot"><a href="password-reset.html"> Forgot Password?</a></p>
+                </article>
+                
+
+                <button class="login-btn">Log in</button>
+            </form>
+            <p class="or">Or</p>
+            <p class="login-alternatives"><img src="./images/google.png" alt=""><img src="./images/LinkedIn.png" alt=""><img src="./images/facebook.png" alt=""></p>
+
+            <p class="sign-up-instead">Don't have an account? <a href="sign-up.html">Sign up</a></p>
+        </div>
+    </div>
+
+    <script src="login.js"></script>
+    
+</body>
+</html>
