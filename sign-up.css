@@ -1,0 +1,118 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  width: 100%;
+  height: fit-content;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./images/blog_bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+
+.main-container{
+  width: 40%;
+  height: fit-content;
+  background-color: #f0f0f0;
+  padding: 30px 20px 60px 20px;
+  margin: 40px auto;
+}
+
+@media only screen and (max-width: 720px) {
+  .main-container{
+    width: 90%;
+  }
+  .fa-eye{
+    position: absolute;
+    top: 46%;
+    right: 4%
+  }
+}
+
+.logo{
+  text-align: center;
+  margin: 12px;
+}
+
+h5{
+  margin: 0 0 15px;
+}
+
+label {
+  display: block;
+  margin: 1.5rem 0 0.5rem 0;
+}
+
+
+ input[type="password"],
+ input[type="text"] {
+  width: 100%;
+  margin: 10px 0 0 0;
+  outline: none;
+  min-height: 2rem;
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+
+.password-container{
+  width: 100%;
+  position: relative;
+}
+
+.fa-eye{
+  position: absolute;
+  top: 59%;
+  right:3%;
+  color: lightgray;
+  cursor: pointer;
+}
+
+.password-guide{
+  font-size: 13px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 200;
+  letter-spacing: 1.3px;
+}
+
+.sign-up-btn{
+  display: flex;
+  margin: 1rem auto;
+  padding: 4px 40px;
+  border: none;
+  background-color: slateblue;
+  border-radius: 4px;
+  color: #f0f0f0;
+  font-size: 18px;
+}
+
+.or{
+  text-align: center;
+  font-size: 18px;
+}
+
+.sign-up-alternatives{
+  margin: 1rem auto;
+  text-align: center;
+}
+
+.sign-up-alternatives img{
+  width: 25px;
+  height: 25px;
+  margin: 0 10px;
+}
+
+.login-instead{
+  text-align: center;
+}
+
+a{
+  text-decoration: none;
+}
+
