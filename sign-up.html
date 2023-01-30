@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elit Shelf User_Sign-up</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="sign-up.css">
+</head>
+<body>
+
+    <div class="main-container">
+        <div class="logo">
+            <a href="home.html"><img src="./images/elite_logo.png" alt="Logo"></a>
+        </div>
+        <div class="form-container">
+            <h5>Sign Up</h5>
+            <form action="/sign-up" method="post" class="sign-up-form">
+                <label for="emeail"> E-mail<input type="text" name="email" id="email" placeholder="eliteshelf@gmail.com" required></label>
+
+                <div class="password-container"><label for="password"> Password<input type="password" id="password" name="password" placeholder="Password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" value="SgnupPw" required></label>
+                    <i class="fa-solid fa-eye " id="show-password"></i>
+                </div>
+                <p class="password-guide">Must be 8 or more characters, and must contain at least 1 capital letter, 1 numerical and 1 special character.</p>
+
+                <button class="sign-up-btn">Sign Up</button>
+            </form>
+            <p class="or">Or</p>
+            <p class="sign-up-alternatives"><img src="./images/google.png" alt=""><img src="./images/LinkedIn.png" alt=""><img src="./images/facebook.png" alt=""></p>
+
+            <p class="login-instead">Have an account? <a href="login.html">Log in</a></p>
+        </div>
+    </div>
+
+    <script src="sign-up.js"></script>
+    
+</body>
+</html>
