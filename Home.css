@@ -81,7 +81,7 @@ header .second-container ul li {
     padding: 2px 8px;
     border: none;
     border-radius: 4px;
-    background-color: slateblue;
+    background-color: #3349C0;
     color: white; 
 }
 
@@ -96,40 +96,36 @@ a{
 
 
 .hero{
-    border: 3px solid #fff;
+    width: 100%;
+    height: fit-content;
+    
     padding: 10px;
+    position: relative;
 }
 
-.call-to-action{
-    width: 50%;
-    float: left;
-    padding: 5px;
-    
-}
-
-
-
-.call-to-action img{
-    max-width: 90%;
+.hero-image{
+    max-width: 35%;
     height: auto;
-    max-height: 90%;
+    position: absolute;
+    top: 1%;
+    left: 55%;
+    z-index: -1;
+    vertical-align: middle;
+    margin: 0;
+    padding: 0;
 }
 
 
-section .call-to-action .content {
-    display: flex;
-    flex-direction: column;
-    
-}
-
-section .call-to-action .content h3 {
+section h3 {
     font-size: 20px;
     margin: 1rem;
-    padding-top: 20px;
+    padding-top: 30px;
+    text-shadow: 1px 1px rgba(255, 255, 255, 0.9);
 }
 
 .Elite-description{
     margin-left: 1rem;
+    text-shadow: 0.2px 0.2px rgba(0, 0, 255, 0.9);
 
 }
 
@@ -137,17 +133,17 @@ section .call-to-action .content h3 {
     height: fit-content;
     width: fit-content;
     padding: 5px 10px;
-    margin: 1rem;
+    margin: 1rem 1rem 2rem 1rem;
     border: none;
     border-radius: 4px;
-    background-color: slateblue;
+    background-color: #3349C0;
     color: #f0f0f0;
     font-size: 18px;
    
 }
 
 .get-started-btn:hover {
-    background-color: rgb(101, 243, 236);
+    background-color: #95FFFC;
     color: slateblue;
 }
 
@@ -161,7 +157,7 @@ section .call-to-action .content h3 {
 .books-gallery {
     display: block;
     width: 80% auto;
-    margin: 15% 1rem 0.5rem 1rem; 
+    margin: 1% 1rem 0.5rem 1rem; 
 }
 
 .books-gallery2 {
@@ -291,7 +287,7 @@ section .scrolling-wrapper {
 /* footer section starts here*/
 
 footer{
-    background-color: slateblue;
+    background-color: #3349C0;
     color: #f0f0f0;
     width: 100%;
     height: fit-content;
@@ -443,12 +439,12 @@ textarea{
 }
 
 .social-icons a img{
-    max-width: 5%;
+    max-width: 100%;
     height: auto;
-    border: 5px solid black;
+    border: 2px solid black;
     display: inline;
     float: right;
-    margin: 1%;
+    margin: 0.5%;
 }
 
 #facebook-logo{
