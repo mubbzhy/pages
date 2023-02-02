@@ -1,0 +1,333 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: fit-content;
+    font-family: Amiko, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.first-row{
+    width: 100%;
+    display: flex;
+    border-bottom: 1px solid #000000;  
+}
+
+.first-row .logo{
+    max-width: 100%;
+    height: auto;
+    margin: 1px 3%;
+}
+
+.first-row ul{
+    list-style-type: none;
+    display: flex;
+    margin: 10px 7% 0 10px;
+}
+
+.search-form{
+    display: flex;
+}
+
+.search-box{
+    width: 300px;
+    font-size: 18px;
+    margin-right: 7%;
+    border-radius: 4px;
+    outline: none;
+    padding: 4px 10px;
+}
+
+.search-btn{
+    font-size: 18px;
+    color: white;
+    border: none;
+    background-color: #3349C0;
+    padding: 4px 10px;
+    border-radius: 4px;
+}
+
+.first-row ul li{
+    margin: 1px 10%;
+    font-size: 20px;
+    
+}
+
+.first-row ul li a{
+    text-decoration: none;
+    color: rgba(0, 0, 20, 0.9);
+}
+
+.first-row ul li .publisher{
+    color: #3349C0;
+}
+
+.cart{
+    margin-right: 30px;
+}
+
+.second-row{
+    border-bottom: 1px solid #000000;
+}
+
+.second-row ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+.second-row ul li{
+    margin: 2px 7%;
+    font-size: 20px;
+}
+
+.second-row ul li a{
+    text-decoration: none;
+    color: rgba(0, 0, 20, 0.9);
+}
+
+
+.main-content{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    margin-top: 2rem;
+}
+
+.side-panel .order-details{
+    display: inline-block;
+}
+
+.side-panel{
+    width: 20%;
+    height: fit-content;
+    border: 1px solid #d5d5e8;
+    margin: 1% 5%;
+    color: #2A2A2A;    
+}
+
+.salutation-box{
+    border:1px solid #ced1e6;
+    background:linear-gradient(#3349C0 30%, #ffff);
+    margin-bottom: 1rem;
+    padding: 10px;
+    color: #fff;
+}
+
+.welcome{
+    text-align: right;
+    margin-top: 1rem;
+}
+
+.order-details{
+    width: 70%;
+    height: fit-content;
+    border: 1px solid #d5d5e8;
+    margin: 1% 5% 3% 0;
+}
+
+.item p {
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 16px;
+    vertical-align: middle;
+  }
+
+.item{
+    margin: 1.5rem 1rem;
+}
+
+.icon{
+    margin-right: 1rem;
+}
+
+.blue{
+    color: #3349C0;
+}
+
+.order-head{
+    background-color: #E5F0F0;
+    border: 1px solid #a5b1b1;
+    text-align: center;
+    font-weight: 700;
+    padding: 8px;
+    font-family: Unna, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.order-groups ul{
+    list-style-type: none;
+    display: flex;
+    border-bottom: 1px solid #a5b1b1;
+    justify-content: center;
+}
+
+.order-groups ul li{
+    margin: 1% 5%;
+    font-size: 18px;
+}
+
+.group-details{
+    display: flex;
+    margin: 5%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.details-list {
+    width: 50%;
+    text-align: left;
+    
+}
+
+.order-image{
+    width:20%;
+    
+}
+
+.order-image img{
+    max-width: 80%;
+}
+
+.details{
+    font-size: 18px;
+    margin: 1rem;
+}
+
+
+.order-hr{
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+/* footer section statrts here*/
+
+footer{
+    background-color: #3349C0;
+    color: #f0f0f0;
+    width: 100%;
+    height: fit-content;
+    padding: 10px 0 20px 0;
+    
+}
+
+.footer-container{
+    display: flex;
+    justify-content: center;
+    gap: 14%;
+
+}
+
+.form-container form{
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-us{
+    font-size: 20px;
+    font-weight: 700;
+    margin: 2% 0 1% 0;
+    
+}
+
+.contact-btn{
+    width: fit-content;
+    height: fit-content;
+    padding: 8px 25px;
+    margin: 0.5rem 0;
+    color:white;
+    background-color: black;
+    border: none;
+    border-radius: 5px;
+}
+
+
+input{
+    height: 30px;
+    padding: 2px 8px;
+    border: 1px solid black;
+    margin: 0.5rem 0;
+}
+
+.our-pages{
+    font-size: 20px;
+    font-weight: 700;
+    text-align: left;
+    margin-top: 2%;
+}
+
+.footer-menu ul li{
+    font-size: 20px;
+    margin: 0 20px;
+}
+
+footer .footer-container .our-contact-details, footer .footer-container .terms{
+    margin: 2% 0;
+    font-size: 20px;
+}
+
+.our-contact-details ul, .terms ul{
+    list-style-type: none;
+}
+
+
+
+.copy-right{
+    background-color: rgb(2, 2, 58);
+    height: 25px;
+    border: none;
+    vertical-align: middle;
+    
+}
+
+.copy-right .copy-right-para img{
+    max-width: 2%;
+    height: auto;
+}
+
+.copy-right-para{
+    color: #f0f0f0;
+    font-size: 12px;
+    text-align: center;
+    vertical-align: middle;
+    
+}
+
+.copy-c{
+    border: none;
+    font-size: 18px;
+    vertical-align: middle;
+    color: white;
+    border-radius: 80px;
+    font-weight: 900;
+    padding: 1px;
+    
+}
+
+.social-icons a img{
+    max-width: 100%;
+    height: auto;
+    border: 2px solid black;
+    display: inline;
+    float: right;
+    margin: 0.5%;
+}
+
+#facebook-logo{
+    margin-right: 5%;
+}
+
+/* footer section ends here*/
