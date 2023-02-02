@@ -284,7 +284,7 @@ section .scrolling-wrapper {
 }
 
 
-/* footer section starts here*/
+/* footer section statrts here*/
 
 footer{
     background-color: #3349C0;
@@ -296,118 +296,62 @@ footer{
 }
 
 .footer-container{
-    width: 100%;
-}
-
-.footer-container::before,
-.footer-container::after{
-
-    content: "";
-    display: table;
-    clear: both;
-}
-
-footer .footer-container div {
-    float: left;
-    
-}
-
-footer .footer-container .form-container{
-    width: 100% auto;
+    display: flex;
     justify-content: center;
-    text-align: center;
-}
+    gap: 14%;
 
-footer .footer-container .footer-menu {
-
-    width: 100% auto;
-    margin: 2% 4%;
-}
-
-footer .footer-container .footer-menu ul li{
-    margin-left: 4%;
-}
-
-.our-pages{
-    font-size: 20px;
-    font-weight: 700;
-    margin: auto;
-    text-align: left;
-}
-
-footer .footer-container .our-contact-details{
-    width: 100% auto;
-    margin: 2% 2%;
-}
-
-.our-contact-details ul {list-style-type: none;}
-
-
-
-footer .footer-container .terms{
-    
-    width:100% auto; 
-    margin: 2% 2%;
-    
-}
-
-.our-contact-details ul li{
-    font-size: 16px;
-    margin: 2% 0;
-}
-
-.terms ul{list-style-type: none;}
-
-.terms ul li{
-    font-size: 16px;
-    margin: 2% 0;
-    
-}
-
-.form-container{
-    margin: 2% 2%;
 }
 
 .form-container form{
     display: flex;
     flex-direction: column;
 }
+
 .contact-us{
     font-size: 20px;
     font-weight: 700;
-    margin: 1% 2% 1% 0;
+    margin: 2% 0 1% 0;
     
-}
-
-.footer-hr{
-    width: 100%;
-}
-
-input{
-    height: 30px;
-    padding: 2px 8px;
-    border: 1px solid slateblue;
-    width: 75%;
-    margin: 0.2rem 1rem;
-}
-
-textarea{
-    border: 1px solid slateblue;
-    padding: 2px 8px;
-    width: 75%;
-    margin: 0 1rem;
-
 }
 
 .contact-btn{
     width: fit-content;
     height: fit-content;
-    padding: 4px 10px;
-    margin: 0.2rem 1rem;
+    padding: 8px 25px;
+    margin: 0.5rem 0;
     color:white;
     background-color: black;
     border: none;
-    border-radius: 2px;
+    border-radius: 5px;
+}
+
+
+input{
+    height: 30px;
+    padding: 2px 8px;
+    border: 1px solid black;
+    margin: 0.5rem 0;
+}
+
+.our-pages{
+    font-size: 20px;
+    font-weight: 700;
+    text-align: left;
+    margin-top: 2%;
+}
+
+.footer-menu ul li{
+    font-size: 20px;
+    margin: 0 20px;
+}
+
+footer .footer-container .our-contact-details, footer .footer-container .terms{
+    margin: 2% 0;
+    font-size: 20px;
+}
+
+.our-contact-details ul, .terms ul{
+    list-style-type: none;
 }
 
 
@@ -416,14 +360,20 @@ textarea{
     background-color: rgb(2, 2, 58);
     height: 25px;
     border: none;
+    vertical-align: middle;
     
+}
+
+.copy-right .copy-right-para img{
+    max-width: 2%;
+    height: auto;
 }
 
 .copy-right-para{
     color: #f0f0f0;
     font-size: 12px;
     text-align: center;
-    padding: 4px 0 0 0;
+    vertical-align: middle;
     
 }
 
@@ -452,4 +402,5 @@ textarea{
 }
 
 /* footer section ends here*/
+
 
